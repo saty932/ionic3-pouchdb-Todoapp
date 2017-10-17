@@ -18,7 +18,7 @@ Then, to run it
 
 ```bash
 
-In the browser Browser
+In the  Browser
 $ionic lab
 
 
