@@ -7,11 +7,11 @@ I have used couchdb as remotedb and pouchdb is local db.When the app starts it's
 
 
 <div>
-<img src="https://user-images.githubusercontent.com/15616596/31644242-dba90f1c-b312-11e7-8be6-b5638a4f0eaa.png" width="200">
+<img style="margn-left:30px;" src="https://user-images.githubusercontent.com/15616596/31644242-dba90f1c-b312-11e7-8be6-b5638a4f0eaa.png" width="200">
 
-<img src="https://user-images.githubusercontent.com/15616596/31644245-de77050a-b312-11e7-85e2-5f0c5ab2f98f.png" width="200">
+<img style="margn-left:30px;" src="https://user-images.githubusercontent.com/15616596/31644245-de77050a-b312-11e7-85e2-5f0c5ab2f98f.png" width="200">
 
-<img src="https://user-images.githubusercontent.com/15616596/31644248-e11e6c62-b312-11e7-9c8b-b2814b5062c8.png" width="200">
+<img style="margn-left:30px;" src="https://user-images.githubusercontent.com/15616596/31644248-e11e6c62-b312-11e7-9c8b-b2814b5062c8.png" width="200">
 </div>
 
 ### Installation:
