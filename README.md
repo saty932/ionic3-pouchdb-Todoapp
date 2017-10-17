@@ -1,26 +1,35 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
-## How to use this template
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+## Ionic2 Todoapplication with offlinemode using pouchdb and couchdb
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
 
-### With the Ionic CLI:
+I have used couchdb as remotedb and pouchdb is local db.When the app starts it's check for pouchdb it's not there then it will create pouchdb and get the data from couchdb.If pouchdb is already there then it's get data from pouchdb.It's automatically sync to couchdb.
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+
+### Installation:
+
+After clone this repository
 
 ```bash
 $ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
 ```
 
-Then, to run it, cd into `myBlank` and run:
+Then, to run it
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+
+In the browser Browser
+$ionic lab
+
+
+For Android Platform 
+$ cordova platform add android
+$cordova run android
+
+For Ios platform 
+$  cordova platform add ios
+$  cordova run ios
 ```
 
-Substitute ios for android if not on a Mac.
+
 
