@@ -1,0 +1,39 @@
+<!--
+  Generated template for the AddTodoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+	<ion-navbar>
+		<ion-title color="light" text-center >
+			<p style="color: white;">AddTodo</p>
+		</ion-title>
+	</ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<ion-grid>
+		<ion-row >
+			<ion-col col-12 >	
+				<ion-input [(ngModel)]="todoHeading" name="todoHeading" placeholder="Enter Title"></ion-input>
+				<hr class="horizontal">	
+				<ion-input [(ngModel)]="todoData" name="todoData" placeholder="Enter Description"></ion-input>
+				<hr class="horizontal">	
+			</ion-col>
+			<ion-col col-3 >
+			</ion-col>
+			<ion-col col-6 >
+				<button ion-button color="secondary"  (click)="addTodo()">ADD TODO</button>
+			</ion-col>
+			<ion-col col-3 >
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+</ion-content>	
+
+
+

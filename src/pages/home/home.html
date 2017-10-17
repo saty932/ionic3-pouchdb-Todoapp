@@ -1,14 +1,30 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
+	<ion-navbar>
+		<ion-title text-center>
+			<p style="text-align: center;color: white;">Todo List		
+				<span style="padding-left:30%;"><i class="fa fa-plus" 
+				(click)="moveToAddTodoPage()" ></i></span> 
+			</p>			
+			
+		</ion-title>
+		
+	</ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content no-padding>
+	<div *ngFor="let item of data">	
+		<ion-card>
+			<ion-card-header>
+				<p style="text-align: right;">
+					<ion-icon name="create" (click)="showmodal(item)"></ion-icon>
+					<ion-icon name="trash" (click)="delete(item)"></ion-icon>
+				</p>	
+				{{item.todoHeading}}
+			</ion-card-header>
+
+			<ion-card-content>
+				{{item.todoData}}
+			</ion-card-content>
+		</ion-card>
+	</div>
 </ion-content>
